@@ -28,7 +28,7 @@ class VerkadaDB():
     def getRows(self,tableName, matchingCriteria):
         
         #matchingCriteria format = { "db" : "dbInstance",
-        #                            "header" : "name",
+        #                            "header1" : "name",
         #                            "operator1" : "==",
         #                            "value1 : "kyle",
         #                            "logOp1" : "&",
