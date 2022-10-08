@@ -65,6 +65,7 @@ class VerkadaDB():
         funcStr += "}"
         
         return eval(funcStr)
+        #More can be done here to allow more fleibility to the method, e.g. (age>50 and name = John) or age >60, however i've only worked up until the requirments of the task.
     
     def updateRows(self, tableName, matchingCriteria, updateInformation):
         
